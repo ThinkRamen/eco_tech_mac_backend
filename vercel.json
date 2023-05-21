@@ -1,0 +1,14 @@
+{
+	"builds": [
+		{
+			"src": "eco_tech_mac_backend/wsgi.py",
+			"use": "@vercel/python"
+		}
+	],
+	"routes": [
+		{
+			"src": "/(.*)",
+			"dest": "eco_tech_mac_backend/wsgi.py"
+		}
+	]
+}
