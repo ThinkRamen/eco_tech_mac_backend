@@ -1,5 +1,5 @@
 {
-	"version": 1,
+	"version": 2,
 	"builds": [
 		{
 			"src": "eco_tech_mac_backend/wsgi.py",
