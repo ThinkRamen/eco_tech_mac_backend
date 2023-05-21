@@ -1,2 +1,3 @@
 .venv/
 eco_tech_mac_backend/.env
+staticfiles_build/
